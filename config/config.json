@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "gdg_admin",
+    "password": "gdg_secure_password_2025",
+    "database": "gdg_recruitment",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "gdg_admin",
+    "password": "gdg_secure_password_2025",
+    "database": "gdg_recruitment_test",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  }
+}
